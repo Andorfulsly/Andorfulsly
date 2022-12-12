@@ -15,3 +15,78 @@
        <img src="logo.png" style="width:72px;"/>
    </body>
 </html>
+<html>
+<head>
+<title>Pharmacy Website with Multi-Vendor Support</title>
+<style>
+/* Style the body */
+body {
+font-family: Arial;
+background-color: #f1f1f1;
+}
+
+/* Style the header */
+header {
+background-color: #555;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+/* Style the navigation bar */
+nav {
+float: left;
+width: 30%;
+background: #ccc;
+padding: 20px;
+}
+
+/* Style the main content area */
+.main {
+float: left;
+width: 70%;
+padding: 20px;
+}
+
+/* Style the footer */
+footer {
+clear: both;
+background-color: #555;
+color: white;
+padding: 15px;
+}
+
+/* Responsive layout - make the navigation bar and main content area responsive to the screen size */
+@media (max-width: 600px) {
+nav, .main {
+width: 100%;
+height: auto;
+}
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Pharmacy Website</h2>
+</header>
+<nav>
+  <h3>Navigation</h3>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Our Vendors</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+<div class="main">
+  <h1>Welcome to Our Pharmacy Website</h1>
+  <p>This is a website where you can find a wide range of medication and health products from multiple vendors. Our vendors are carefully selected to provide high quality and affordable products to our customers.</p>
+  <p>Take a look at our list of vendors and their products, and feel free to contact us with any questions or concerns.</p>
+</div>
+<footer>
+  <p>Copyright 2020, Pharmacy Website</p>
+</footer>
+</body>
+</html>
+
